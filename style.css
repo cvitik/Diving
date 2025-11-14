@@ -16,7 +16,6 @@ body{
 .container{
     width: 1620px;
     margin: 0 auto;
-    display: flex;
 }
 header{
     padding: 60px 0;
@@ -45,7 +44,6 @@ header{
 }
 /* hero */
 .hero{
-    padding: 170px 0;
     border-bottom: 2px solid #FFFFFF;
     background-color: #0C70AC;
 }
@@ -66,16 +64,8 @@ header{
 .hero-text{
     font-family: "Quicksand";
     font-weight: 700;
-    padding-bottom: 170px;
     font-size: 32px;
-    line-height: 100%;
-    width: 663px;
-    height: 80px;
     color: #FFFFFF;
-}
-.hero-wrapper{
-    padding-left: 150px;
-    margin-top: 170px;
 }
 /* destinations */
 .destinations{
@@ -86,8 +76,7 @@ header{
 }
 .destinations-title{
     font-size: 40px;
-    font-family: "Quicksand" sans-serif;
-    color: #000000;
+    font-family: "Quicksand", sans-serif;
     font-weight: 600;
     padding-bottom: 50px;
 }
@@ -118,7 +107,6 @@ header{
     font-weight: 500;
     font-size: 24px;
     text-decoration: underline;
-    padding-bottom: 80px;
 }
 .destinations_img{
     width: 520px;
@@ -129,38 +117,31 @@ header{
 .blog{
     padding-top: 80px;
     background-color: #E6E6E6;
+    padding-bottom: 80px;
 }
 .blog-title{
     font-family: "Quicksand";
     text-align: center;
     font-weight: 600;
     font-size: 40px ;
+    padding-bottom: 50px;
 }
 .blog-item{
-     width: 330px;
-    padding: 15px;
     background-color: white;
-    border: 1px solid rgb(224, 223, 223);;
     border-radius: 8px;
-    padding-bottom: 80px;
 }
 .blog-list{
         display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     gap: 30px;
-}
-.blog-img{
-    width: 100%;
-    height: 240px;
 }
 .blog-date{
     font-family: "Quicksand";
     font-weight: 600;
     line-height: 100%;
-    width: 108px;
-    height: 20px;
     color: #7C7C7C;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 .blog-name{
     font-family: "Quicksand";
@@ -173,9 +154,8 @@ header{
     font-family: "Quicksand";
     font-weight: 600;
     font-size: 20px;
-    width: 440px;
-    height: 75px;
     color: #7C7C7C;
+    padding-bottom: 50px;
 }
 /* about */
 .about{
@@ -193,7 +173,7 @@ header{
 }
 .about-list-img{
     display: flex;
-    flex-direction: column;
+    gap: 25px;
 }
 .about-link{
     font-family: "Quicksand";
@@ -204,11 +184,14 @@ header{
     height: 30px;
 }
 .about-list-link{
-    display: flex;
-    flex-direction: row;
 }
 .about-img{
     padding-bottom: 80px;
+}
+.about-wrapper{    
+}
+.about-list-img{
+    flex-wrap: nowrap;
 }
 /* copyright */
 .copyright{
