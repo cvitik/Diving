@@ -58,8 +58,7 @@ header{
     line-height: 100%;
     padding-bottom: 20px;
     color: #FFFFFF;
-    width: 663px;
-    height: 160px;
+    padding-top: 170px;
 }
 .hero-text{
     font-family: "Quicksand";
@@ -84,16 +83,14 @@ header{
     display: flex;
     justify-content: center;
     gap: 30px;
-    list-style-type: none;
-    padding-left: 0;
 }
 .destinations-name{
-    padding-left: 60px;
     font-family: "Quicksand" sans-serif;
     padding-bottom: 15px;
     padding-top: 30px;
     color: #000000;
     font-weight: 500;
+    font-size: 35px;
 }
 .destinations-description{
     font-family: "Quicksand";
@@ -107,10 +104,10 @@ header{
     font-weight: 500;
     font-size: 24px;
     text-decoration: underline;
+    padding-bottom: 80px;
+    color: #7C7C7C;
 }
 .destinations_img{
-    width: 520px;
-    height: 342px;
     border-radius: 15px;
 }
 /* blog */
@@ -142,13 +139,13 @@ header{
     color: #7C7C7C;
     padding-top: 25px;
     padding-bottom: 25px;
+    padding-left: 40px;
 }
 .blog-name{
     font-family: "Quicksand";
     font-weight: 600;
     font-size: 24px;
-    width: 440px;
-    height: 60px;
+    padding-left: 40px;
 }
 .blog-description{
     font-family: "Quicksand";
@@ -156,20 +153,20 @@ header{
     font-size: 20px;
     color: #7C7C7C;
     padding-bottom: 50px;
+    padding-left: 40px;
 }
 /* about */
 .about{
     padding-top: 80px;
     background-color: #001C2D;
      border-bottom: 2px solid #FFFFFF;
+     padding-bottom: 80px;
 }
 .about-title{
     font-family: "Quicksand";
     font-weight: 600;
     font-size: 40px;
     color: #FFFFFF;
-    width: 137px;
-    height: 50px;
 }
 .about-list-img{
     display: flex;
@@ -180,18 +177,17 @@ header{
     font-weight: 600;
     font-size: 24px;
     color: #FFFFFF;
-    width: 104px;
-    height: 30px;
 }
 .about-list-link{
 }
 .about-img{
-    padding-bottom: 80px;
+
 }
-.about-wrapper{    
+.about-wrapper{ 
+
 }
-.about-list-img{
-    flex-wrap: nowrap;
+.about-wrapper-link{
+
 }
 /* copyright */
 .copyright{
